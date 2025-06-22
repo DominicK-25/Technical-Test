@@ -1,5 +1,8 @@
 ﻿namespace JuniorDevopsEngineerTest;
 
+using System;
+using System.Collections.Generic;
+
 /*
     Given an array of numbers count the number of elements which appear more than once in the array.
 
@@ -32,7 +35,7 @@ public class QuestionOne
                 duplicates.Add(number);
             }
         }
-        
+
         return duplicates.Count;
-     }
+    }
 }
