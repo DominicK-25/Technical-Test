@@ -24,5 +24,8 @@
 */
 public class QuestionTwo
 {
-    public static string GetLargestString(string s, int k) { }
+    public static string GetLargestString(string s, int k)
+    { 
+        return ""; //placeholder for now, logic will added after I work on Q1
+    }
 }

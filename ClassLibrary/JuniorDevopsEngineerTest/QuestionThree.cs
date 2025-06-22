@@ -17,5 +17,8 @@ public class QuestionThree
     * Complete the function below.
     * Base url: https://jsonmock.hackerrank.com/api/moviesdata/search/?Title=<substr>&page<pageNumber>
     */
-    public static async Task<string[]> GetMovieTitles(string substr) { }
+    public static async Task<string[]> GetMovieTitles(string substr)
+    { 
+         return await Task.FromResult(new string[0]);  //placeholder for now, logic will added after I work on Q1 and Q2
+    }
 }
